@@ -215,13 +215,4 @@ def main():
                query=query
             ))
 
-    elif False:
-        sink = False
-        if sink:
-            sink_id = sink.split(".")[0]
-            subprocess.run(
-                f"wpctl set-default {sink_id}",
-                shell=True
-            )
-
 main()
